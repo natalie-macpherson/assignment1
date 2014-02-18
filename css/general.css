@@ -47,19 +47,20 @@ body {
     float: left;
 }
 
-article {
-    margin: 0;
-    font-size: 0 5%;
-    line-height: hidden;
-}
-
 .billboard {
     overflow: hidden;
     background-image: url(../images/galileo_galilei_large.jpg);
     background-color: black;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: 40rem;
+    padding: 0 0 0 .4rem;
+}
+
+article {
+    margin: 0;
+    padding:0 5%;
+    line-height: hidden;
 }
 
 h1 {
@@ -72,10 +73,11 @@ h1 {
     text-shadow: .15rem .15rem .10rem rgba(0, 0, 0, .7);
 }
 
-.headline {
-    font-size: 1.3rem;
-    margin: 0 0 1.5rem;
-    line-height: 2.25rem;
+.deck {
+    font-size:1.25rem;
+    margin:0 0 1.5rem;
+    line-height: 1.7rem;
+    font-weight: bold;
     padding: .5rem 0 0 0;
 }
 
@@ -84,20 +86,20 @@ h2 {
     color: #600000;
     font-size: 1.75rem;
     margin: 0 0 1.5rem;
-    line-height: 2rem;
-    padding: .75rem 0 0 .25rem;
+    line-height: 1.75rem;
 }
 
 p {
     line-height: 1.5rem;
-    margin: 0 .25rem 1.5rem .25rem;
+    margin:0 0 1.5rem;
+    font-weight:lighter;
 }
 
 .dropcap:first-letter {
     font-size: 4.8rem;
     font-weight: bold;
     float: left;
-    margin: 1.5rem .25rem 1.5rem 0;
+    margin: 1.5rem .25rem .25rem 0;
     color:#600000;
 }
 

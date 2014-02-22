@@ -54,7 +54,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 40rem;
-    padding: 0 0 0 .4rem;
+    padding: 0 0 0 0;
 }
 
 article {
@@ -67,11 +67,15 @@ article {
 h1 {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Times New Roman", serif;
     font-weight: normal;
-    margin: 3rem 0;
+    margin: 1.5rem auto 1.5rem;
+    padding: .5rem 2%;
+    letter-spacing: -.1rem;
+    text-align:left;
     font-size: 3.25rem;
     line-height: 3.75rem;
     color: white;
     text-shadow: .15rem .15rem .10rem rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, 0.6);;
 }
 
 .deck {

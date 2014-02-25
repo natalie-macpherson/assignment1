@@ -30,6 +30,8 @@ img {
 body {
     margin: 0;
     padding: 0;
+    background-image:rl("nureenhouse.jpg");
+    background-repeat:no-repeat;
 }
 
 .masthead {

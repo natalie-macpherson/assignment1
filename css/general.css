@@ -17,7 +17,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
     font-family: "Helvetical Neue", Helvetica, Arial, sans-serif;
 }
@@ -30,8 +29,10 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-image:rl("nureenhouse.jpg");
-    background-repeat:no-repeat;
+    background-image:url(../images/paint.jpg);
+    background-repeat:repeat;
+    background-color: white;
+    background-position: center;
 }
 
 .masthead {
@@ -64,7 +65,7 @@ article {
     margin: 0;
     padding:0 5%;
     font-weight:lighter;
-    overflow: hidden;
+    overflow: hidden;   
 }
 
 h1 {

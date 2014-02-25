@@ -29,10 +29,6 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-image:url(../images/paint.jpg);
-    background-repeat:repeat;
-    background-color: white;
-    background-position: center;
 }
 
 .masthead {
@@ -65,7 +61,11 @@ article {
     margin: 0;
     padding:0 5%;
     font-weight:lighter;
-    overflow: hidden;   
+    overflow: hidden;
+    background-image:url(../images/paint.jpg);
+    background-repeat:repeat;
+    background-color: white;
+    background-position: center;
 }
 
 h1 {
